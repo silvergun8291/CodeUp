@@ -16,4 +16,6 @@ for i in range(n):
 
 # 결과 출력
 for i in range(h):
-    print(*table[i])
+    for j in range(w):
+        print(table[i][j])
+

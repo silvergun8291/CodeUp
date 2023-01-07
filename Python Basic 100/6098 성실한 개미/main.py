@@ -23,4 +23,5 @@ for y in range(1, 10):
         
 print()
 for i in range(10):
-    print(*table[i])
+    for j in range(10):
+        print(table[i][j])
